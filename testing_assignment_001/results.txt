@@ -1,0 +1,42 @@
+Tests ran at 16 Apr 08 10 PM
+
+32 tests passed out of 34 tests.
+
+tests_car.py::test_creation_of_car_object_once_true: passed
+tests_car.py::test_the_creation_of_car_objects_twice_true: passed
+tests_car.py::test_given_max_speed_is_negative_raise_invalid_maxspeed: passed
+tests_car.py::test_given_max_speed_is_zero_raise_invalid_maxspeed: passed
+tests_car.py::test_given_max_speed_is_positive_equal_to_true: passed
+tests_car.py::test_given_acceleration_is_negative_raise_invalid_acceleration: passed
+tests_car.py::test_given_acceleration_is_zero_raise_invalid_acceleration: passed
+tests_car.py::test_given_acceleration_is_positive_equal_to_true: passed
+tests_car.py::test_given_tyre_friction_is_negative_raise_invalid_tyre_friction: passed
+tests_car.py::test_given_tyre_friction_is_zero_raise_invalid_tyre_friction: passed
+tests_car.py::test_given_tyre_friction_is_positive_equal_to_true: passed
+tests_car.py::test_start_engine_is_engine_started_true: passed
+tests_car.py::test_start_engine_is_engine_started_twice_true: passed
+tests_car.py::test_more_cars_called_one_engine_started_other_engines_stop_true: passed
+tests_car.py::test_stop_engine_is_engine_stopped_false: passed
+tests_car.py::test_current_speed_before_start_engine_result_zero: passed
+tests_car.py::test_current_speed_after_start_engine_result_zero: passed
+tests_car.py::test_current_speed_always_less_than_max_speed_true: passed
+tests_car.py::test_start_engine_sound_horn_true: passed
+tests_car.py::test_sound_horn_when_engine_is_not_started_print_start_the_engine: passed
+tests_car.py::test_accelerate_when_engine_is_not_started_print_start_the_engine: passed
+tests_car.py::test_apply_break_when_car_is_in_motion_gives_value: passed
+tests_car.py::test_apply_more_breaks_when_car_is_in_motion_result_negative: passed
+tests_car.py::test_apply_breaks_when_car_is_in_motion_result_zero: passed
+tests_car.py::test_apply_more_accelerate_when_car_is_in_motion_does_not_exceed_maxspeed: passed
+tests_car.py::test_apply_more_accelerate_when_car_is_in_motion_equal_to_maxspeed: passed
+tests_car.py::test_encapsulation_for_max_speed_raise_exception: passed
+tests_car.py::test_encapsulation_for_color_raise_exception: passed
+tests_car.py::test_encapsulation_for_acceletation_raise_exception: passed
+tests_car.py::test_encapsulation_for_tyre_friction_raise_exception: passed
+tests_car.py::test_encapsulation_for_current_speed_raise_exception: passed
+tests_car.py::test_encapsulation_for_is_engine_started_raise_exception: passed
+tests_car.py::test_apply_more_breaks_when_car_is_in_motion_result_minus_one: failed
+tests_car.py::test_apply_more_breaks_when_car_is_in_motion_result_plus_one: failed
+
+
+Errors: 0 errors
+
